@@ -97,7 +97,6 @@ function SideBar(props: Props) {
   );
   return (
     <div className={s.root}>
-      <div className={version.meta && version.premium ? s.logo_singbox : s.logo_meta} />
       <div className={s.rows}>
         {pages.map(({ to, iconId, labelText }) => (
           <SideBarRow
